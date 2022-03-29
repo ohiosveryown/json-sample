@@ -132,8 +132,10 @@ ul {
 
 // styles
 
-header {
+header,
+section {
   position: relative;
+  z-index: var(--zmax);
 }
 
 .logo {
